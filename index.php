@@ -16,7 +16,7 @@ if (count($_POST))
 
     if ($_POST['email'] == '')
     {
-        $email_error = 'Please enter an email address';
+        $email_error = 'Please enter an correct email address';
         $errors ++;
     }
 
